@@ -7,4 +7,81 @@ body {
       font-family: 'Poppins', sans-serif;
       font-family: 'Roboto Condensed', sans-serif;
       font-family: 'Work Sans', sans-serif;
+      background: #FFF;
+}
+
+
+/* nav bar section styles */
+nav {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+}
+
+nav ul li a {
+      text-decoration: none;
+      margin-right: 34px;
+}
+
+nav ul {
+      text-decoration: none;
+      list-style: none;
+}
+
+/* Banner section styles */
+
+.banner-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 300px;
+      padding-right: 80px;
+
+}
+
+.banner-title {
+      color: #3A3A3A;
+      font-size: 52px;
+      font-weight: 700;
+
+}
+
+.banner-description {
+      color: #3A3A3A;
+      font-size: 16px;
+      font-weight: 600;
+
+}
+
+.banner-text-section {
+      width: 50%;
+}
+
+.button-preebook {
+      border-radius: 41px;
+      background: #E02C6D;
+      padding: 10px 24px;
+      color: #FFF;
+      border: none;
+      align-items: center;
+}
+
+.banner-img-section {
+      width: 50%;
+      align-items: center;
+}
+
+.Circle-png {
+      position: relative;
+      left: 40px;
+      top: 280px;
+
+}
+
+.camera-banner-png {
+      position: relative;
+      bottom: 130px;
+
+
+
 }
